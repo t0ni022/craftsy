@@ -2,4 +2,6 @@
 @import './general.css';
 @import './header.css';
 @import './home.css';
-@import './normalize.css'
+@import './form.css';
+@import './register.css';
+@import './buttons.css'

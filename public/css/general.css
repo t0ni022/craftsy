@@ -1,4 +1,8 @@
-
+:root{
+    --colorRojo : #ff4500;
+    --colorGris : #6b6868;
+    --colorBlanco : #ffffff;
+}
 *{
     margin: 0;
     padding: 0;
@@ -13,9 +17,47 @@ a{
     color: #ffffff;
 }
 
-.home{
+textarea{
+    width: 100%;
+    resize: none;
+}
+
+body{
     font-family: 'lato';
     max-width: 1140px;
     margin: 0 auto;
     background-image: url('/img/bg-2.png');
 }   
+
+.box__end{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 10px;
+}
+
+.box__card{
+    max-width: 320px;
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px #c0c0c0;
+    border-radius: 5px;
+}
+
+.box__card--simple{
+    max-width: 320px;
+}
+.box__card--double{
+    max-width: 768px;
+}
+
+.box__card--title{
+    margin-bottom: 30px;
+    text-align: end;
+}
+
+.link{
+    color: #0000ff;
+}
